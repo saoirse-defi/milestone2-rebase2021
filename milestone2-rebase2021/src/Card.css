@@ -1,0 +1,38 @@
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.card-row{
+    display: flex;
+    flex-direction: row;
+    justify-items: end;
+    align-items: center;
+    height: 300px;
+    border-bottom: 1px solid #fefefe;
+    width: 1200px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    padding-right: 36px;
+    min-width: 400px;
+}
+
+.card h1{
+    font-size: 24px;
+    width: 120px;
+}
+
+.card img{
+    height: 280px;
+    width: auto;
+}
+
+.card-data{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
